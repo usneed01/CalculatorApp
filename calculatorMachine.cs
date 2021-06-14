@@ -35,20 +35,23 @@ namespace CalculatorApp
                 case '-':
                     results = firstNumber - secondNumber;
                     Console.WriteLine("The difference of {0} and {1} is {2}", firstNumber, secondNumber, results);
-                    break;
                     startover();
+                    break;
+                    
 
                 case '*':
                     results = firstNumber * secondNumber;
                     Console.WriteLine("The product of {0} and {1} is {2}", firstNumber, secondNumber, results);
-                    break;
                     startover();
+                    break;
+                    
 
                 case '/':
                     results = firstNumber / secondNumber;
                     Console.WriteLine("The division of {0} and {1} is {2}", firstNumber, secondNumber, results);
-                    break;
                     startover();
+                    break;
+                    
 
 
                 default:
@@ -60,11 +63,12 @@ namespace CalculatorApp
         }
         private void startover()
         {
-            Console.WriteLine("Want To Do Something Else??\nIf \'yes\'the press and enter (Y). \n" +
-                "Enter any key");
+            Console.WriteLine("Want To Do Something Else?\nIf \'yes\'then press and enter (Y). \n" +
+                "Else enter any key"); 
+                
             string YesorNo = Console.ReadLine();
             bool mybool = (YesorNo == "y" || YesorNo == "Y");
-            if (mybool == true)
+            if (mybool==true)
             {
                 repeat();
             }
@@ -78,6 +82,7 @@ namespace CalculatorApp
         private void repeat()
         {
             firstNumber = results;
+
             Console.WriteLine("Enter Your Second Number:");
             secondNumber = double.Parse(Console.ReadLine());
 
@@ -92,7 +97,7 @@ namespace CalculatorApp
 
             Console.WriteLine("Final Result Expected is {0}", results);
             Console.WriteLine("Press Any Key to ESC the calculator");
-            Console.ReadLine();
+            Console.ReadKey();
         }
 
     }
