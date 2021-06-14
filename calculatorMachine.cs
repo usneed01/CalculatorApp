@@ -63,7 +63,7 @@ namespace CalculatorApp
         }
         private void startover()
         {
-            Console.WriteLine("Want To Do Something Else?\nIf \'yes\'then press and enter (Y). \n" +
+            Console.WriteLine("Want To Do Something Else? If \'yes\'then press and enter (Y)." +
                 "Else enter any key"); 
                 
             string YesorNo = Console.ReadLine();
