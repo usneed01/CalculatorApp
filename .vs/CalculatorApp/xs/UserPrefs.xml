@@ -1,9 +1,21 @@
 ﻿<Properties StartupConfiguration="{29007936-2EB1-4C94-8840-19F2150C7058}|Default">
-  <MonoDevelop.Ide.ItemProperties.CalculatorApp FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.ItemProperties.CalculatorApp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="calculatorMachine.cs">
     <Files>
-      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="30" Column="1" />
+      <File FileName="calculatorMachine.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="CalculatorApp" expanded="True">
+            <Node name="CalculatorApp" expanded="True">
+              <Node name="CalculatorApp" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

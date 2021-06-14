@@ -1,0 +1,81 @@
+﻿
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+
+namespace CalculatorApp
+    {
+        class calculatorMachine
+
+        {
+            private double firstNumber;
+            private double secondNumber;
+            private double results;
+            private char operation;
+
+            public calculatorMachine(double first, double second, char opp)
+            {
+                firstNumber     = first;
+                secondNumber    = second;
+                operation       = opp;
+                Switching();
+            }
+            private void Switching()
+        {
+            switch (operation)
+            {
+                case '+':
+                    results = firstNumber + secondNumber;
+                    Console.WriteLine("The sum of {0} and {1} is {2}", firstNumber, secondNumber, results);
+                    break;
+
+                case '-':
+                    results = firstNumber - secondNumber;
+                    Console.WriteLine("The difference of {0} and {1} is {2}", firstNumber, secondNumber, results);
+                    break;
+
+                case '*':
+                    results = firstNumber * secondNumber;
+                    Console.WriteLine("The product of {0} and {1} is {2}", firstNumber, secondNumber, results);
+                    break;
+
+                case '/':
+                    results = firstNumber / secondNumber;
+                    Console.WriteLine("The division of {0} and {1} is {2}", firstNumber, secondNumber, results);
+                    break;
+
+
+                default:
+                    Console.WriteLine("Impossible Action! Please Try Again!");
+                    break;
+
+            }
+        }
+            private void startover()
+        {
+            Console.WriteLine("Want To Do Something Else??\nIf \'yes\'the press and enter (Y). \n" +
+                "Enter any key");
+            string YesorNo = Console.ReadLine();
+            bool mybool = (YesorNo == "y" || YesorNo == "Y");
+            if (mybool == true)
+            {
+            }
+            else
+            { 
+            }
+       
+        }
+
+        private void repeat()
+        {
+            firstNumber = results;
+            Console.WriteLine("Enter Your Second Number:");
+            secondNumber = double.Parse(Console.ReadLine());
+        }
+
+
+        }
+
+    }
