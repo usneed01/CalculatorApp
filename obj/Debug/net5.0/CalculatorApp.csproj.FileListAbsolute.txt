@@ -1,0 +1,15 @@
+/Users/ulyssasneed/Console Calculator/CalculatorApp/bin/Debug/net5.0/CalculatorApp.deps.json
+/Users/ulyssasneed/Console Calculator/CalculatorApp/bin/Debug/net5.0/CalculatorApp.runtimeconfig.json
+/Users/ulyssasneed/Console Calculator/CalculatorApp/bin/Debug/net5.0/CalculatorApp.runtimeconfig.dev.json
+/Users/ulyssasneed/Console Calculator/CalculatorApp/bin/Debug/net5.0/CalculatorApp.dll
+/Users/ulyssasneed/Console Calculator/CalculatorApp/bin/Debug/net5.0/ref/CalculatorApp.dll
+/Users/ulyssasneed/Console Calculator/CalculatorApp/bin/Debug/net5.0/CalculatorApp.pdb
+/Users/ulyssasneed/Console Calculator/CalculatorApp/obj/Debug/net5.0/CalculatorApp.csprojAssemblyReference.cache
+/Users/ulyssasneed/Console Calculator/CalculatorApp/obj/Debug/net5.0/CalculatorApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ulyssasneed/Console Calculator/CalculatorApp/obj/Debug/net5.0/CalculatorApp.AssemblyInfoInputs.cache
+/Users/ulyssasneed/Console Calculator/CalculatorApp/obj/Debug/net5.0/CalculatorApp.AssemblyInfo.cs
+/Users/ulyssasneed/Console Calculator/CalculatorApp/obj/Debug/net5.0/CalculatorApp.csproj.CoreCompileInputs.cache
+/Users/ulyssasneed/Console Calculator/CalculatorApp/obj/Debug/net5.0/CalculatorApp.dll
+/Users/ulyssasneed/Console Calculator/CalculatorApp/obj/Debug/net5.0/ref/CalculatorApp.dll
+/Users/ulyssasneed/Console Calculator/CalculatorApp/obj/Debug/net5.0/CalculatorApp.pdb
+/Users/ulyssasneed/Console Calculator/CalculatorApp/obj/Debug/net5.0/CalculatorApp.genruntimeconfig.cache
