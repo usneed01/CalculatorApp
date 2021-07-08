@@ -6,9 +6,9 @@ namespace CalculatorApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("----------------------------------------------------------------------------\n" +
-                "----------------------Welcome To Coolbeans Console Calculator---------------\n" +
-                "----------------------------------------------------------------------------");
+            Console.WriteLine("----------------------------------------------------------------------------");
+            Console.WriteLine("----------Welcome To Coolbeans Console Calculator---------------------------");
+            Console.WriteLine("----------------------------------------------------------------------------");
 
             Console.WriteLine("Enter Your First Number: ");
         {
@@ -22,7 +22,7 @@ namespace CalculatorApp
             Console.WriteLine("Select An Operation: (-,+, *, /)");
             char myopp = char.Parse(Console.ReadLine());
 
-            calculatorMachine user = new calculatorMachine(fnum, snum, myopp);
+            calculatorMachine ser = new calculatorMachine(fnum, snum, myopp);
             
         }
     }
