@@ -22,7 +22,7 @@ namespace CalculatorApp
             Console.WriteLine("Select An Operation: (-,+, *, /)");
             char myopp = char.Parse(Console.ReadLine());
 
-            calculatorMachine User = new calculatorMachine(fnum, snum, myopp);
+            calculatorMachine user = new calculatorMachine(fnum, snum, myopp);
             
         }
     }

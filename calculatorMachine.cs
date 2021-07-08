@@ -28,20 +28,20 @@ namespace CalculatorApp
             {
                 case '+':
                     results = firstNumber + secondNumber;
-                    Console.WriteLine("The sum of {0} and {1} is {2}", firstNumber, secondNumber, results);
+                    Console.WriteLine(" The sum of {0} and {1} is {2} ", firstNumber, secondNumber, results);
                     startover();
                     break;
 
                 case '-':
                     results = firstNumber - secondNumber;
-                    Console.WriteLine("The difference of {0} and {1} is {2}", firstNumber, secondNumber, results);
+                    Console.WriteLine(" The difference of {0} and {1} is {2} ", firstNumber, secondNumber, results);
                     startover();
                     break;
                     
 
                 case '*':
                     results = firstNumber * secondNumber;
-                    Console.WriteLine("The product of {0} and {1} is {2}", firstNumber, secondNumber, results);
+                    Console.WriteLine(" The product of {0} and {1} is {2} ", firstNumber, secondNumber, results);
                     startover();
                     break;
                     
@@ -55,7 +55,7 @@ namespace CalculatorApp
 
 
                 default:
-                    Console.WriteLine("Impossible Action! Please Try Again!");
+                    Console.WriteLine(" Impossible Action! Please Try Again !");
                     End();
                     break;
 
@@ -63,12 +63,12 @@ namespace CalculatorApp
         }
         private void startover()
         {
-            Console.WriteLine("Want To Do Something Else? If \'yes\'then press and enter (Y)." +
-                "Else enter any key"); 
+            Console.WriteLine(" Want To Do Something Else? If \'yes\'then press and enter (Y)." +
+                " Else enter any key "); 
                 
             string YesorNo = Console.ReadLine();
-            bool mybool = (YesorNo == "y" || YesorNo == "Y");
-            if (mybool==true)
+            bool myBool = (YesorNo == "y" || YesorNo == "Y");
+            if (myBool==true)
             {
                 repeat();
             }
@@ -83,10 +83,10 @@ namespace CalculatorApp
         {
             firstNumber = results;
 
-            Console.WriteLine("Enter Your Second Number:");
+            Console.WriteLine(" Enter Your Second Number : ");
             secondNumber = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Select An Operation: (- , + , * , /)");
+            Console.WriteLine(" Select An Operation : (- , + , * , /) ");
             operation = char.Parse(Console.ReadLine());
             Switching();
 
@@ -95,8 +95,8 @@ namespace CalculatorApp
         private void End()
         {
 
-            Console.WriteLine("Final Result Expected is {0}", results);
-            Console.WriteLine("Press Any Key to ESC the calculator");
+            Console.WriteLine(" Final Result Expected is {0} ", results);
+            Console.WriteLine(" Press Any Key to ESC the calculator");
             Console.ReadKey();
         }
 
