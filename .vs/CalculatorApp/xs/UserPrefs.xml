@@ -10,7 +10,7 @@
         <State name="__root__">
           <Node name="CalculatorApp" expanded="True">
             <Node name="CalculatorApp" expanded="True">
-              <Node name="README.md" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
