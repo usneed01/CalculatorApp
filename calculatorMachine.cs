@@ -48,7 +48,7 @@ namespace CalculatorApp
 
                 case '/':
                     results = firstNumber / secondNumber;
-                    Console.WriteLine("The division of {0} and {1} is {2}", firstNumber, secondNumber, results);
+                    Console.WriteLine(" The division of {0} and {1} is {2} ", firstNumber, secondNumber, results);
                     startover();
                     break;
                     
@@ -63,7 +63,7 @@ namespace CalculatorApp
         }
         private void startover()
         {
-            Console.WriteLine(" Want To Do Something Else? If \'yes\'then press and enter (Y)." +
+            Console.WriteLine("  Want To Do Something Else ? If \'yes\'then press and enter (Y)." +
                 " Else enter any key "); 
                 
             string YesorNo = Console.ReadLine();
@@ -86,7 +86,7 @@ namespace CalculatorApp
             Console.WriteLine(" Enter Your Second Number : ");
             secondNumber = double.Parse(Console.ReadLine());
 
-            Console.WriteLine(" Select An Operation : (- , + , * , /) ");
+            Console.WriteLine(" Select An Operation : ( - , + , * , / ) ");
             operation = char.Parse(Console.ReadLine());
             Switching();
 
