@@ -27,7 +27,8 @@ _______________________________________________________________
 ### 4. NEXT, your solution is displayed like this...
     
      > The (SOULTION) of (FIRST NUMBER) and (SECOND NUMBER) is (OUTPUT)
-       Want To Do Something Else ? If 'yes'then press and enter (Y). Else enter any key 
+       Want To Do Something Else ? If 'yes'then press and enter (Y).
+       Else enter any key 
        
 ### 5. IF ANY KEY OTHER THAN Y, then, the user will be exited out of the calculator.
 ### 6. IF Y IS ENTERED, then user will be prompted to use ***CURRENT*** number, and perform another operation using another number.
