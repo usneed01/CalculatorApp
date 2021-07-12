@@ -22,7 +22,7 @@ namespace CalculatorApp
             operation = opp;
             Switching();
         }
-        private void Switching()
+        public void Switching()
         {
             switch (operation)
             {
@@ -67,7 +67,7 @@ namespace CalculatorApp
                 " Else enter any key "); 
                 
             string YesorNo = Console.ReadLine();
-            bool myBool = (YesorNo == "y" || YesorNo == "Y");
+            bool myBool = (YesorNo!.ToLower() == "y");
             if (myBool==true)
             {
                 repeat();
@@ -84,6 +84,7 @@ namespace CalculatorApp
             firstNumber = results;
 
             Console.WriteLine(" Enter Your Second Number : ");
+
             secondNumber = double.Parse(Console.ReadLine());
 
             Console.WriteLine(" Select An Operation : ( - , + , * , / ) ");
