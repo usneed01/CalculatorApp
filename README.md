@@ -34,6 +34,12 @@ _______________________________________________________________
 ### 6. IF Y IS ENTERED, then user will be prompted to use ***CURRENT*** number, and perform another operation using another number.
 ### 7. This cycle of choosing another number and operation can continue as long as the user wants, and master loop finishes and closes when user selects ***ANY OTHER KEY***
 
+## **3+ PROJECT FEATURES**
+### 1. Implementation a “master loop” console application where the user can repeatedly enter commands/perform actions, including choosing to exit the program 
+### 2. Creation an additional class(es) which inherit one or more properties from its parent
+### 3. Calculate and display data based on an external factor (ex: I considered the User (OUTPUT/ENTRY) as the external factor, based of the project that I selected and its functionality)
+### 4. Created and called at least 3 functions or methods, at least one of which must return a value that is used in your application
+
 ## **WHAT DID I LEARN?**
 
 * That C# is definitely not for the faint of heart!!!
